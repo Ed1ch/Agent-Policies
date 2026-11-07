@@ -2,7 +2,7 @@
 
 **Назначение:** единый источник общих агентных политик для нескольких проектов и способов подключения, а не документация продукта Agent-to-Go или Zanevka MCP v2.
 
-**Статус:** исходные общие политики перенесены из [Agent-To-Go/context/agents-policy](https://github.com/Ed1ch/Agent-To-Go/tree/main/context/agents-policy) 07.11.2026. Технический Policy Gate пока не реализован; ссылки из проектов переводятся поэтапно.
+**Статус:** исходные общие политики перенесены из [Agent-To-Go/context/agents-policy](https://github.com/Ed1ch/Agent-To-Go/tree/33cb3e60f84105a01a4e9bbf47008b96f19b6395/context/agents-policy) 07.11.2026. Технический Policy Gate пока не реализован; ссылки из проектов переводятся поэтапно.
 
 ## Области ответственности
 
@@ -24,4 +24,4 @@
 
 **По задаче:** [hosts/](hosts/README.md) — профили хостов; [WINDOWS_MCP.md](WINDOWS_MCP.md), [SECURITY.md](SECURITY.md), [IMPLEMENTATION_PLAN.md](IMPLEMENTATION_PLAN.md) — проект будущего Policy Gate. Проектные правила следует писать в репозитории соответствующего продукта, не здесь.
 
-**Происхождение:** исходные документы — [Agent-To-Go/context/agents-policy на 07.11.2026](https://github.com/Ed1ch/Agent-To-Go/tree/main/context/agents-policy); история прежних редакций остаётся в Git этого репозитория.
+**Происхождение:** исходные документы — [Agent-To-Go/context/agents-policy на 07.11.2026](https://github.com/Ed1ch/Agent-To-Go/tree/33cb3e60f84105a01a4e9bbf47008b96f19b6395/context/agents-policy); история прежних редакций остаётся в Git этого репозитория.
