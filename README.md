@@ -2,7 +2,7 @@
 
 **Назначение:** единый источник общих агентных политик для нескольких проектов и способов подключения, а не документация продукта Agent-to-Go или Zanevka MCP v2.
 
-**Статус:** миграция из [Agent-To-Go/context/agents-policy](https://github.com/Ed1ch/Agent-To-Go/tree/main/context/agents-policy) начата 07.11.2026; до завершения переноса и проверки ссылок не считать этот репозиторий полностью заменившим предыдущую точку входа.
+**Статус:** исходные общие политики перенесены из [Agent-To-Go/context/agents-policy](https://github.com/Ed1ch/Agent-To-Go/tree/main/context/agents-policy) 07.11.2026. Технический Policy Gate пока не реализован; ссылки из проектов переводятся поэтапно.
 
 ## Области ответственности
 
@@ -20,6 +20,8 @@
 
 ## Навигация
 
-В ходе миграции планируется один набор документов: `GENERAL.md`, `TOOL_SELECTION.md`, `CODEX_CLI.md`, `PROCESS_MANAGEMENT.md`, `SECURITY.md`, `WINDOWS_MCP.md`, `IMPLEMENTATION_PLAN.md`, `hosts/`. Новые проектные правила следует писать в репозитории соответствующего продукта, не здесь.
+**Основные правила:** [GENERAL.md](GENERAL.md) — границы действий; [CODEX_CLI.md](CODEX_CLI.md) — Codex CLI; [PROCESS_MANAGEMENT.md](PROCESS_MANAGEMENT.md) — процессы и запрет повторных запусков; [TOOL_SELECTION.md](TOOL_SELECTION.md) — анализ файлов через Windows MCP.
+
+**По задаче:** [hosts/](hosts/README.md) — профили хостов; [WINDOWS_MCP.md](WINDOWS_MCP.md), [SECURITY.md](SECURITY.md), [IMPLEMENTATION_PLAN.md](IMPLEMENTATION_PLAN.md) — проект будущего Policy Gate. Проектные правила следует писать в репозитории соответствующего продукта, не здесь.
 
 **Происхождение:** исходные документы — [Agent-To-Go/context/agents-policy на 07.11.2026](https://github.com/Ed1ch/Agent-To-Go/tree/main/context/agents-policy); история прежних редакций остаётся в Git этого репозитория.
